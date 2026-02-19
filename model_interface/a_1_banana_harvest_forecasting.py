@@ -5,9 +5,9 @@ import joblib
 
 @st.cache_resource
 def load_files():
-    best_model = joblib.load(r"D:\DS_all_dashboards\model_files\2_banana_harvest_forecasting\best_regression_model.joblib")
-    scaler = joblib.load(r"D:\DS_all_dashboards\model_files\2_banana_harvest_forecasting\banana_scale.joblib")
-    label_enc = joblib.load(r"D:\DS_all_dashboards\model_files\2_banana_harvest_forecasting\banana_label.joblib")
+    best_model = joblib.load(r"model_files\2_banana_harvest_forecasting\best_regression_model.joblib")
+    scaler = joblib.load(r"model_files\2_banana_harvest_forecasting\banana_scale.joblib")
+    label_enc = joblib.load(r"model_files\2_banana_harvest_forecasting\banana_label.joblib")
     return best_model, scaler, label_enc
 
 best_model, scaler, label_enc = load_files()
