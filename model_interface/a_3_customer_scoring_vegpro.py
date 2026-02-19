@@ -7,7 +7,8 @@ def run_sales_score_app():
     # -----------------------------
     # Load model + scaler
     # -----------------------------
-    best_model = joblib.load("model_files/3_customer_scoring_vegpro/top_1_model_Gradient_Boosting.joblib")
+    # best_model = joblib.load("model_files/3_customer_scoring_vegpro/top_1_model_Gradient_Boosting.joblib")
+    best_model = joblib.load("https://github.com/swarajshinde2003/dash_test_1/blob/00ba0ec378468aae2defe669f5a4e3c13e8f59f4/model_files/3_customer_scoring_vegpro/top_1_model_Gradient_Boosting.joblib")
     scaler = joblib.load("model_files/3_customer_scoring_vegpro/scale.joblib")
 
     # -----------------------------
@@ -46,3 +47,5 @@ def run_sales_score_app():
 
 
 
+# https://github.com/swarajshinde2003/dash_test_1/blob/00ba0ec378468aae2defe669f5a4e3c13e8f59f4/model_files/3_customer_scoring_vegpro/top_1_model_Gradient_Boosting.joblib
+# https://github.com/swarajshinde2003/dash_test_1/blob/main/model_files/3_customer_scoring_vegpro/top_1_model_Gradient_Boosting.joblib
