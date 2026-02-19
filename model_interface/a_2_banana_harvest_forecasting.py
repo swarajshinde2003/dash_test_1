@@ -12,7 +12,6 @@ def load_files():
 
 best_model, scaler, label_enc = load_files()
 
-
 def banana_harvest_forecasting():
     
    
